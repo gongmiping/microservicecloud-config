@@ -6,13 +6,13 @@ spring:
 
 ---
 spring:
-  profiles: dev  #
+  profiles: dev  #开发环境
   application:
-     name: 
+     name: hello-spring-cloud-web-admin-feign-dev
    
 ---
  
 spring:
-  profiles: test  #
+  profiles: test  #测试环境
   application:
-     name: 
+     name: hello-spring-cloud-web-admin-feign-test
